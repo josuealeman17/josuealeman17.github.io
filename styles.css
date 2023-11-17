@@ -1,0 +1,172 @@
+/* Reset de estilos para quitar márgenes y rellenos predeterminados */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+header, nav, section, article, footer {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #333;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.jovenaleman {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerContainer {
+    padding-left: 3%;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+#inicio {
+    text-align: center;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+}
+
+.picture {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    padding-left: 4%;
+    flex: 1.4;
+}
+
+.text {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.text h2 {
+    padding-top: 4%;
+    color: #333;
+}
+
+.text p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+#habilidades h2 {
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: #333;
+}
+
+.lluvia-container {
+    text-align: center;
+}
+
+.lluvia {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.lluvia li {
+    margin: 5px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#proyectos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.article {
+    flex-basis: calc(50% - 10px);
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.article h2 {
+    color: #333;
+}
+
+
+.article p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+}
+
+.insane a {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.article a:hover {
+    background-color: #444;
+}
+
+.enlace-proyecto {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.enlace-proyecto:hover {
+    background-color: #444;
+}
+
+#contacto {
+    text-align: center;
+    color: #333;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #888;
+}
